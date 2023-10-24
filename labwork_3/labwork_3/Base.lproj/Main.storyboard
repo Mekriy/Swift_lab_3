@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -24,14 +23,14 @@
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BlI-cY-FY3" userLabel="View Top">
                                                 <rect key="frame" x="0.0" y="0.0" width="120" height="158"/>
-                                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                                                <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </view>
                                             <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Xw-qw-NwQ" userLabel="View Bottom">
                                                 <rect key="frame" x="0.0" y="0.0" width="120" height="158"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                                                <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </view>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nMf-Qq-Zka">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nMf-Qq-Zka">
                                                 <rect key="frame" x="0.0" y="0.0" width="120" height="158"/>
                                                 <connections>
                                                     <action selector="buttonSwapCards:" destination="BYZ-38-t0r" eventType="touchUpInside" id="W1a-TJ-yX9"/>
@@ -57,14 +56,14 @@
                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Jm-Hs-aMh" userLabel="View Top">
                                                 <rect key="frame" x="0.0" y="0.0" width="120" height="158"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                                                <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </view>
-                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2pw-61-LNS" userLabel="View Bottom">
+                                            <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2pw-61-LNS" userLabel="View Bottom">
                                                 <rect key="frame" x="0.0" y="0.0" width="120" height="158"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </view>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eSS-gM-87z">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eSS-gM-87z">
                                                 <rect key="frame" x="0.0" y="0.0" width="120" height="158"/>
                                                 <connections>
                                                     <action selector="buttonSwapCards:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vyr-uA-PEP"/>
@@ -93,13 +92,13 @@
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EXn-Ao-iqd" userLabel="View Top">
                                                 <rect key="frame" x="0.0" y="0.0" width="120" height="158"/>
-                                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                                                <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8nw-M5-xSH" userLabel="View Bottom">
+                                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8nw-M5-xSH" userLabel="View Bottom">
                                                 <rect key="frame" x="0.0" y="0.0" width="120" height="158"/>
-                                                <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </view>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ztf-QM-7Td">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ztf-QM-7Td">
                                                 <rect key="frame" x="0.0" y="0.0" width="120" height="158"/>
                                                 <connections>
                                                     <action selector="buttonSwapCards:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TuF-jQ-ELP"/>
@@ -129,15 +128,15 @@
                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HVv-XD-s30" userLabel="View Top">
                                                 <rect key="frame" x="0.0" y="0.0" width="120" height="158"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                                                <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </view>
-                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Snz-pc-pw0" userLabel="View Bottom">
+                                            <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Snz-pc-pw0" userLabel="View Bottom">
                                                 <rect key="frame" x="0.0" y="0.0" width="120" height="158"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                                                <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </view>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SmM-Ef-ZHy">
-                                                <rect key="frame" x="45" y="0.0" width="30" height="158"/>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SmM-Ef-ZHy">
+                                                <rect key="frame" x="0.0" y="0.0" width="120" height="158"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <connections>
                                                     <action selector="buttonSwapCards:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oTR-uA-ZtL"/>
@@ -162,14 +161,14 @@
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E4y-eM-R7i" userLabel="View Top">
                                                 <rect key="frame" x="0.0" y="0.0" width="120" height="174"/>
-                                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                                                <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a22-qJ-F9P" userLabel="View Bottom">
+                                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a22-qJ-F9P" userLabel="View Bottom">
                                                 <rect key="frame" x="0.0" y="0.0" width="120" height="174"/>
-                                                <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                                                <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </view>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aua-Bm-sE5">
-                                                <rect key="frame" x="45" y="0.0" width="30" height="174"/>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aua-Bm-sE5">
+                                                <rect key="frame" x="0.0" y="0.0" width="120" height="174"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <connections>
                                                     <action selector="buttonSwapCards:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qbJ-3G-Xzw"/>
@@ -195,16 +194,16 @@
                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7ld-cP-iuB" userLabel="View Top">
                                                 <rect key="frame" x="0.0" y="0.0" width="120" height="174"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                                                <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </view>
-                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DrI-LA-whq" userLabel="View Bottom">
+                                            <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DrI-LA-whq" userLabel="View Bottom">
                                                 <rect key="frame" x="0.0" y="0.0" width="120" height="174"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                                                <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </view>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yke-aB-s69">
-                                                <rect key="frame" x="45" y="0.0" width="30" height="174"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yke-aB-s69">
+                                                <rect key="frame" x="0.0" y="0.0" width="120" height="174"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
                                                 <connections>
                                                     <action selector="buttonSwapCards:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sCP-NM-qnX"/>
                                                 </connections>
@@ -220,22 +219,33 @@
                                     <constraint firstItem="uTU-Hq-tWW" firstAttribute="leading" secondItem="nr7-Qa-VwS" secondAttribute="trailing" constant="50" id="btb-He-DSq"/>
                                 </constraints>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Winning streak" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hGI-ci-mH4">
+                                <rect key="frame" x="135" y="86" width="144" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="LXX-Qa-Tfj" firstAttribute="top" secondItem="hGI-ci-mH4" secondAttribute="bottom" constant="37" id="4ds-AP-lgy"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Oee-f3-4pf" secondAttribute="bottom" constant="139" id="9ga-mU-GsA"/>
                             <constraint firstItem="Gm1-a4-2Di" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="AhC-fL-7Ov"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hGI-ci-mH4" secondAttribute="trailing" constant="135" id="EFV-46-shs"/>
                             <constraint firstItem="Oee-f3-4pf" firstAttribute="top" secondItem="Gm1-a4-2Di" secondAttribute="bottom" constant="38" id="Ir9-WL-zql"/>
                             <constraint firstItem="LXX-Qa-Tfj" firstAttribute="leading" secondItem="Oee-f3-4pf" secondAttribute="leading" id="JdD-W4-qWb"/>
                             <constraint firstItem="Gm1-a4-2Di" firstAttribute="top" secondItem="LXX-Qa-Tfj" secondAttribute="bottom" constant="51" id="TnB-kA-biX"/>
                             <constraint firstItem="LXX-Qa-Tfj" firstAttribute="leading" secondItem="Gm1-a4-2Di" secondAttribute="leading" id="WP9-Ix-o3t"/>
+                            <constraint firstItem="hGI-ci-mH4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="135" id="ay1-SD-aJM"/>
                             <constraint firstItem="LXX-Qa-Tfj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="cm7-7Z-bVX"/>
                             <constraint firstItem="LXX-Qa-Tfj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="emg-hv-TOb"/>
                             <constraint firstAttribute="bottom" secondItem="LXX-Qa-Tfj" secondAttribute="bottom" constant="578" id="ems-cM-8Bw"/>
+                            <constraint firstItem="hGI-ci-mH4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="42" id="pdB-4h-9yz"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="WinningStreakLabel" destination="hGI-ci-mH4" id="oJY-2F-3GV"/>
                         <outletCollection property="topCardViews" destination="BlI-cY-FY3" collectionClass="NSMutableArray" id="Hpv-K9-l26"/>
                         <outletCollection property="bottomCardViews" destination="4Xw-qw-NwQ" collectionClass="NSMutableArray" id="3No-z6-18z"/>
                         <outletCollection property="topCardViews" destination="6Jm-Hs-aMh" collectionClass="NSMutableArray" id="fmd-hZ-z08"/>
@@ -249,6 +259,11 @@
                         <outletCollection property="bottomCardViews" destination="a22-qJ-F9P" collectionClass="NSMutableArray" id="3EM-P0-MMR"/>
                         <outletCollection property="bottomCardViews" destination="DrI-LA-whq" collectionClass="NSMutableArray" id="Xxn-q2-vLS"/>
                         <outletCollection property="buttons" destination="nMf-Qq-Zka" collectionClass="NSMutableArray" id="P0A-CZ-bal"/>
+                        <outletCollection property="buttons" destination="eSS-gM-87z" collectionClass="NSMutableArray" id="ZYF-C1-lkE"/>
+                        <outletCollection property="buttons" destination="ztf-QM-7Td" collectionClass="NSMutableArray" id="d6n-uU-jH1"/>
+                        <outletCollection property="buttons" destination="SmM-Ef-ZHy" collectionClass="NSMutableArray" id="wYh-4o-E9t"/>
+                        <outletCollection property="buttons" destination="aua-Bm-sE5" collectionClass="NSMutableArray" id="HHO-WM-VuW"/>
+                        <outletCollection property="buttons" destination="yke-aB-s69" collectionClass="NSMutableArray" id="c5y-EC-QXz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -256,15 +271,4 @@
             <point key="canvasLocation" x="28.985507246376812" y="83.705357142857139"/>
         </scene>
     </scenes>
-    <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemPurpleColor">
-            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-    </resources>
 </document>
